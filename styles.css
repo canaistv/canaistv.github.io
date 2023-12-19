@@ -13,23 +13,25 @@ body {
     max-width: 800px;
     padding: 20px;
     text-align: center;
-}
-
-h1 {
-    font-size: 1.8em;
-    margin-bottom: 0px;
-    margin-top: 20px; 
-    color: #7fff7f; /* Cor RGB (verde claro) para o título */
+    margin-top: 50px; /* Move o quadrado um pouco mais para baixo */
 }
 
 .content-box {
-    background-color: #111; /* Fundo escuro */
-    padding: 20px;
+    background-color: #111;
+    padding: 30px; /* Aumenta o padding do quadrado */
     border-radius: 10px;
+    border-top: 8px solid #7fff7f; /* Aumenta a borda superior */
+    border-bottom: 8px solid #7fff7f; /* Aumenta a borda inferior */
+}
+
+h1 {
+    font-size: 1.5em; /* Reduz o tamanho do texto do título */
+    margin: 0;
+    color: #7fff7f;
 }
 
 .highlighted-text {
-    color: #ff7f7f; /* Cor RGB (vermelho claro) para os textos destacados */
+    color: #ff7f7f;
 }
 
 .split-lists {
@@ -40,29 +42,59 @@ h1 {
 .list-items {
     list-style: none;
     padding: 0;
-    text-align: left; /* Ajusta o alinhamento */
-    flex-basis: 48%; /* Define a largura das colunas */
+    text-align: left;
+    flex-basis: 48%;
 }
 
 .list-items.left {
-    margin-right: 10px; /* Adiciona espaçamento entre as colunas */
+    margin-right: 10px;
 }
 
 .list-items.right {
-    margin-left: 10px; /* Adiciona espaçamento entre as colunas */
+    margin-left: 10px;
 }
 
 .list-items li {
     margin-bottom: 5px;
-    text-align: center; 
-    color: #7f7fff; /* Cor RGB (azul claro) para os itens da lista */
+    display: flex;
+    align-items: center;
+    color: #7f7fff;
+}
+
+.check-mark {
+    width: 20px;
+    display: inline-block;
+}
+
+/* Restante do seu CSS */
+
+.centered-list {
+    text-align: center;
+    margin-bottom: 20px; /* Ajuste o espaçamento inferior conforme necessário */
+}
+
+.centered-list p {
+    margin-bottom: 5px;
+    color: #ff7f7f; /* Cor do texto destacado */
+}
+
+.centered-list ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.centered-list li {
+    display: inline-block;
+    margin: 5px 10px; /* Ajuste o espaçamento entre os itens conforme necessário */
+    color: #7f7fff; /* Cor do texto dos itens */
 }
 
 .whatsapp-button {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
-    background-color: #7fff7f; /* Cor RGB (verde claro) para o botão */
+    background-color: #7fff7f;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -70,5 +102,5 @@ h1 {
 }
 
 .whatsapp-button:hover {
-    background-color: #7f7f3f; /* Cor RGB (verde mais escura) ao passar o mouse */
+    background-color: #7f7f3f;
 }
