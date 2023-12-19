@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 0px;
+    margin-top: 20px; 
+    color: #7fff7f; /* Cor RGB (verde claro) para o título */
+}
+
+.content-box {
+    background-color: #111; /* Fundo escuro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.highlighted-text {
+    color: #ff7f7f; /* Cor RGB (vermelho claro) para os textos destacados */
+}
+
+.split-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Ajusta o alinhamento */
+    flex-basis: 48%; /* Define a largura das colunas */
+}
+
+.list-items.left {
+    margin-right: 10px; /* Adiciona espaçamento entre as colunas */
+}
+
+.list-items.right {
+    margin-left: 10px; /* Adiciona espaçamento entre as colunas */
+}
+
+.list-items li {
+    margin-bottom: 5px;
+    text-align: center; 
+    color: #7f7fff; /* Cor RGB (azul claro) para os itens da lista */
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #7fff7f; /* Cor RGB (verde claro) para o botão */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #7f7f3f; /* Cor RGB (verde mais escura) ao passar o mouse */
+}
