@@ -102,5 +102,6 @@ h1 {
 }
 
 .whatsapp-button:hover {
-    background-color: #7fff7f;
+    background-color: #7f7fff;
+    color: #7f7fff;
 }
