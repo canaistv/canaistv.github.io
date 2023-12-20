@@ -94,7 +94,7 @@ h1 {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
-    background-color: #7fff7f;
+    background-color: #7f7fff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -102,5 +102,5 @@ h1 {
 }
 
 .whatsapp-button:hover {
-    background-color: #7f7fff;
+    background-color: #7fff7f;
 }
