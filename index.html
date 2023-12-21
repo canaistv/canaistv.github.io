@@ -30,13 +30,13 @@
       100% { transform: scale(1); }
     }
     .container {
+      position: relative;
       max-width: 800px;
       margin: 20px auto;
       padding: 20px;
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(255, 255, 255, 0.7); /* Ajustando a opacidade do fundo */
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      max-height: 70vh; /* Altura máxima para exibir o conteúdo sem rolagem da página inteira */
       overflow-y: auto; /* Adicionando barra de rolagem apenas para o conteúdo dentro da .container */
     }
     h1 {
@@ -62,12 +62,64 @@
     .service-symbol {
       font-size: 20px;
     }
+    .more-content-indicator {
+      text-align: center;
+      margin-top: 20px;
+      color: #888;
+    }
+    .buy-button {
+      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 20px;
+      display: block;
+      width: 200px;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      z-index: 1;
+    }
+    .buy-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Estilos para dispositivos móveis */
+    @media screen and (max-width: 600px) {
+      .container {
+        max-width: 100%;
+        border-radius: 0;
+        padding: 10px;
+      }
+      .service {
+        padding: 8px;
+        margin-bottom: 10px;
+      }
+      .service-name {
+        font-size: 14px;
+      }
+      .service-price {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+      .service-symbol {
+        font-size: 16px;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="background"></div>
   <div class="container">
     <h1>Lista de Serviços e Valores</h1>
+    <div class="more-content-indicator">
+      Mais conteúdo abaixo &#8595;
+    </div>
     <div class="service">
       <span class="service-name">TELA GLOBO PLAY+CANAIS</span>
       <span class="service-price">R$ 15,00</span>
@@ -158,6 +210,10 @@
       <span class="service-price">R$ 13,00</span>
       <span class="service-symbol">🎵🍿</span>
     </div>
+    
   </div>
+
+  <a href="https://linkwhats.app/c6204f" class="buy-button">Compre Aqui</a>
+
 </body>
 </html>
