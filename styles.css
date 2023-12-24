@@ -78,8 +78,8 @@ body, html {
 
 .card {
   width: 95%;
-    height: 600px; /* Ajuste a altura conforme desejado */
-    padding: 300px;
+    height: 800px; /* Ajuste a altura conforme desejado */
+    padding: 500px;
   max-width: 800px;
   margin: 0 auto;
     padding:20px;
@@ -93,7 +93,7 @@ body, html {
 .buttons {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
   justify-content: center; /* Centraliza verticalmente */
   align-items: center; /* Centraliza horizontalmente */
     margin-top:100px; /*aumentar a distancia da parte superior */
@@ -109,7 +109,7 @@ body, html {
   border-radius: 2px;
   transition: background-color 0.2s ease;
     font-family: verdana;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .button:hover {
