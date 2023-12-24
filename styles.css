@@ -12,6 +12,11 @@
   text-align: center;
 
   }
+body {
+    background-image: url('1679649.jpg');
+    background-size: cover;
+    background-position: center;
+  }
 
   h2 {
 text-align: center;
