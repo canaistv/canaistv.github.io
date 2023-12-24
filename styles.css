@@ -51,7 +51,7 @@ body, html {
   margin: -100px;
   white-space: nowrap; /* Impede que o texto quebre para uma nova linha */
   overflow: hidden; /* Evita que o texto transborde */
-  margin-top:-300px; /*aumentar a distancia da parte superior */
+  margin-top:-400px; /*aumentar a distancia da parte superior */
 }
 
 .content p {
@@ -78,8 +78,8 @@ body, html {
 
 .card {
   width: 95%;
-    height: 500px; /* Ajuste a altura conforme desejado */
-    padding: 200px;
+    height: 600px; /* Ajuste a altura conforme desejado */
+    padding: 300px;
   max-width: 800px;
   margin: 0 auto;
     padding:20px;
@@ -109,7 +109,7 @@ body, html {
   border-radius: 2px;
   transition: background-color 0.2s ease;
     font-family: verdana;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .button:hover {
