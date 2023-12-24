@@ -48,7 +48,7 @@ body, html {
       --numeric-list-marker: none;
       list-style-type: none;
       padding-bottom: 0px;
-  margin: 100px;
+  margin: -100px;
   white-space: nowrap; /* Impede que o texto quebre para uma nova linha */
   overflow: hidden; /* Evita que o texto transborde */
 }
@@ -59,15 +59,15 @@ body, html {
   font-family: "YACkoC_IHiw 0", _fb_, auto;
   font-size: 30px;
   color: rgb(255, 255, 255);
-  line-height: 20px;
+  line-height: 50px;
   letter-spacing: 0.779em;
   --para-spacing: 0;
   text-transform: uppercase;
   --head-indent: 0;
   --numeric-list-marker: none;
   list-style-type: none;
-  margin: -30px;
-  padding-bottom: 500px;
+  margin: 140px;
+  padding-bottom: 200px;
   white-space: nowrap; /* Impede que o texto quebre para uma nova linha */
   overflow: hidden; /* Evita que o texto transborde */
 }
@@ -77,8 +77,8 @@ body, html {
 
 .card {
   width: 95%;
-    height: 700px; /* Ajuste a altura conforme desejado */
-    padding: 400px;
+    height: 500px; /* Ajuste a altura conforme desejado */
+    padding: 200px;
   max-width: 800px;
   margin: 0 auto;
     padding:20px;
@@ -92,7 +92,7 @@ body, html {
 .buttons {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 25px;
   justify-content: center; /* Centraliza verticalmente */
   align-items: center; /* Centraliza horizontalmente */
     margin-top:100px; /*aumentar a distancia da parte superior */
