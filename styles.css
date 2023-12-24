@@ -65,6 +65,7 @@ padding-bottom: 500px;
     border-radius: 4px;
     transition: background-color 0.3s ease;
       font-family: verdana;
+      font-size: 20px;
   }
   
   .button:hover {
