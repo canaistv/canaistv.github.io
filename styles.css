@@ -69,20 +69,5 @@ padding-bottom: 500px;
     background-color: #2980b9;
   }
   
-  /* Media query para telas menores */
-@media (max-width: 767px) {
-    h2 {
-      font-size: 2em;
-    }
-  
-    p {
-      font-size: 1.2em;
-    }
-  
-    .card {
-      width: 95%;
-      padding: 10px;
-    }
-  }
-  
+ 
   
