@@ -37,7 +37,7 @@ body, html {
 
 .content h2 {
   text-align: center;
-  font-family: "YACkoC_IHiw 0", _fb_, auto;
+   font-family: monospace; /* Usando uma fonte monoespaçada para forçar uma linha */
   font-size: 90px;
   color: rgb(239, 239, 239);
   line-height: 97px;
