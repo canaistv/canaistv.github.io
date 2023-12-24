@@ -1,8 +1,8 @@
 /* Estilos básicos */
 .card {
     width: 95%;
-    height: 200px; /* Ajuste a altura conforme desejado */
-    padding: 100px;
+    height: 300px; /* Ajuste a altura conforme desejado */
+    padding: 200px;
   max-width: 800px;
   margin: 0 auto;
     
@@ -50,11 +50,13 @@ padding-bottom: 500px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
   }
   
   .button {
     display: block;
-    width: 100%;
+    width: 50%;
     padding: 20px 0;
     text-decoration: none;
     background-color: #3498db;
